@@ -8,10 +8,10 @@ c2="${n:$len-$i-1:1}"
 #comparing single single charcters from begining and end
 if [ $c1 != $c2 ];then
 flag=0
-echo "String is not palindrome"
+echo "String is not Palindrome"
 break
 fi
 done
 if(( $flag==1)); then
-echo "Input String is Palindrom"
+echo "Input String is Palindrome"
 fi
