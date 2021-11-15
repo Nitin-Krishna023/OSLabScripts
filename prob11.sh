@@ -1,7 +1,7 @@
 echo "Enter string: "
 read string
 
-len=${#string}   #'#' is uded for finding length
+len=${#string}   #'#' is used for finding length
 
 
 if [[ $len -lt 5 ]]
